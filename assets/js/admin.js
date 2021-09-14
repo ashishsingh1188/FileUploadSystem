@@ -1,0 +1,1 @@
+jQuery('#idcatlistcap, #idcatlistbody').mouseenter(function(){	jQuery('#idcatlistbody').stop().animate({height:'80%'}, 500, 'easeInQuart') ;}) ;jQuery('#idcatlistcap, #idcatlistbody').mouseleave(function(){	jQuery('#idcatlistbody').stop().animate({height:0}, 500, 'easeOutQuart') ;}) ;
